@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="405.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController2">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="468.0" layoutY="-3.0" opacity="0.77" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../logo6.PNG" />
+         </image>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="133.0" layoutX="250.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../quattro%20stagioni.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="126.0" layoutX="28.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../capriciosa.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="96.0" layoutX="47.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../prosciutto%20e%20funghi.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="118.0" layoutX="261.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../diav.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="166.0" layoutY="13.0" text="MENIU" textFill="#eb0b0b">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnTotal" layoutX="179.0" layoutY="376.0" mnemonicParsing="false" onAction="#total" text="Total" />
+      <Label layoutX="55.0" layoutY="39.0" text="Pizza Mexicana" />
+      <Label layoutX="25.0" layoutY="193.0" text="Pizza Prosciutto e Funghi" />
+      <Label layoutX="264.0" layoutY="39.0" text="Pizza Quattro Stagioni" />
+      <Label layoutX="270.0" layoutY="194.0" text="Pizza Diavolo" />
+      <Label layoutX="204.0" layoutY="127.0" wrapText="true">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cbM" editable="true" layoutX="25.0" layoutY="157.0" prefHeight="25.0" prefWidth="139.0" promptText="Øcm|   RON" />
+      <ComboBox fx:id="buc1" editable="true" layoutX="25.0" layoutY="131.0" prefHeight="25.0" prefWidth="71.0" promptText="buc." />
+      <Label layoutX="126.0" layoutY="260.0" />
+      <ComboBox fx:id="cbP" editable="true" layoutX="27.0" layoutY="333.0" prefHeight="25.0" prefWidth="116.0" promptText="Øcm|   RON" />
+      <ComboBox fx:id="buc3" editable="true" layoutX="25.0" layoutY="299.0" prefHeight="25.0" prefWidth="60.0" promptText="buc." />
+      <Label layoutX="14.0" layoutY="138.0">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cbQ" editable="true" layoutX="250.0" layoutY="157.0" prefHeight="25.0" prefWidth="133.0" promptText="Øcm|  RON" />
+      <ComboBox fx:id="cbD" editable="true" layoutX="261.0" layoutY="321.0" prefHeight="25.0" prefWidth="133.0" promptText="Øcm|   RON" />
+      <ComboBox fx:id="buc4" editable="true" layoutX="261.0" layoutY="287.0" prefHeight="25.0" prefWidth="60.0" promptText="buc." />
+      <ComboBox fx:id="buc2" editable="true" layoutX="249.0" layoutY="131.0" prefHeight="25.0" prefWidth="60.0" promptText="buc." />
+      <Button fx:id="btn1" layoutX="105.0" layoutY="134.0" mnemonicParsing="false" onAction="#Clicked" prefHeight="19.0" prefWidth="60.0" text="Ingrediente">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="317.0" layoutY="134.0" mnemonicParsing="false" onAction="#Clicked2" prefHeight="19.0" prefWidth="60.0" text="Ingrediente">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="91.0" layoutY="302.0" mnemonicParsing="false" onAction="#Clicked3" prefHeight="19.0" prefWidth="60.0" text="Ingrediente">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="332.0" layoutY="290.0" mnemonicParsing="false" onAction="#Clicked4" prefHeight="19.0" prefWidth="60.0" text="Ingrediente">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets right="-100.0" />
+   </padding>
+</AnchorPane>
